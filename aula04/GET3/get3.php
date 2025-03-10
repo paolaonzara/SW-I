@@ -1,15 +1,15 @@
 <?php
-// Defina a cor padrão como 'white' para o modo diurno
-$CorEscolhida = "white";
-$CorTexto = "black"; // Texto padrão será preto no modo diurno
 
-// Alterar a cor de fundo e a cor do texto com base na seleção
+$CorEscolhida = "white";
+$CorTexto = "black"; 
+
+
 if ($_POST["cor"] == "noturno") {
-    $CorEscolhida = "black"; // Cor de fundo para tema noturno
-    $CorTexto = "white"; // Texto ficará branco no modo noturno
+    $CorEscolhida = "black"; 
+    $CorTexto = "white"; 
 } elseif ($_POST["cor"] == "diurno") {
-    $CorEscolhida = "white"; // Cor de fundo para tema diurno
-    $CorTexto = "black"; // Texto ficará preto no modo diurno
+    $CorEscolhida = "white"; 
+    $CorTexto = "black"; 
 }
 ?>
 
@@ -23,7 +23,7 @@ if ($_POST["cor"] == "noturno") {
     <style>
         body {
             background-color: <?php echo $CorEscolhida; ?>;
-            color: <?php echo $CorTexto; ?>; /* A cor do texto será alterada com base na cor do fundo */
+            color: <?php echo $CorTexto; ?>; 
         }
     </style>
 </head>
