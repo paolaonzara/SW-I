@@ -4,10 +4,11 @@
 
     if ($email == "aluno@email.com" && $senha == "1234"){
        
-        header('Location: painel/autorizado.html');
+        $nome= "Aluno";
+        header('Location: privada.php?nome='.$nome);
     }else{
        
-        header('Location: painel/naoautorizado.html');
+        header('Location: erro.php');
     }
 
 
