@@ -8,8 +8,6 @@
 <body>
     <?php
         $dados = [1,4,6,8];
-        //print_r($dados);
-        //echo $dados[3];
         for ($i=0; $i <= 3 ; $i++) { 
             echo $dados[$i]."<br>";
         }
