@@ -10,27 +10,19 @@
 
         $dados = [
             [
-                "nome" => "Anderson",
-                "idade" => 50,
-                "tel" => "1273617263",
-                "cidade" => "Ribeirão Pires"  
+                "nome" => "ALALA",
+                "idade" => 79,
+                "tel" => "129283990",
+                "cidade" => "Sorocaba"  
             ],
             [
-                "nome" => "Felipe",
-                "idade" => 34,
-                "tel" => "435345435",
-                "cidade" => "Mauá"  
+                "nome" => "Maria",
+                "idade" => 21,
+                "tel" => "131364798",
+                "cidade" => "Pindamonhangaba"  
             ]
         ];
-
-        //echo $dados[1]["nome"];
-        //print_r($dados[1]);        
-        // foreach ($dados as $conteudo) {
-        //     echo $conteudo."<br>";
-        // }
-
         foreach ($dados as $chave => $valor) {
-            //echo "Chave externa: ". $chave."<br>";
             foreach ($dados[$chave] as $key => $valor) {
                 echo "$key: " . $valor . "<br>";
             }
