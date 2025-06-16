@@ -2,7 +2,7 @@
 
 include_once "Funcionario.class.php";
 
-$func1= new Funcionario("Paola",1000);
+$func1= new Funcionario("Fulano Abdalah Abdu",1000);
 
 echo $func1->exibirInformacoes();
 
